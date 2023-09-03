@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    background: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png");
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+.heading{
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+}
+
+.input-container{
+    width: 100%;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+
+}
+.input-field{
+    width: 25%;
+    height: 40px;
+    border: 1px solid #F7BE38;
+    border-radius: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+    
+}
+input:focus{
+    outline: none
+}
+.btn-submit{
+    position: absolute;
+    width: 5%;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #F7BE38;
+    border: 1px solid #52472f;
+    margin-left: -5%;
+    font-size: 15px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.hint{
+    font-size: 18px;
+}
+
+.list-container{
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    color : #13243E;
+
+    
+}
+.btn-reset{
+    width: 15%;
+    height: 50px;
+    border-radius: 15px;
+    border: 2px solid #99834f;
+    background-color: #F7BE38;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 5%;
+}
+
