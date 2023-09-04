@@ -76,4 +76,15 @@ h2{
     text-align: center;
     margin-top: 5%;
 }
-
+li{
+    padding: 5px 5px 3px 15px;
+    list-style-type: none;
+    height:25px ;
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
